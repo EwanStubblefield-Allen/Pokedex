@@ -4,6 +4,11 @@ body {
   font-size: 10px;
 }
 
+nav {
+  border-bottom: 7px solid black;
+  background: #E93031;
+}
+
 p {
   margin: 0;
 }
@@ -29,4 +34,8 @@ ul {
 
 .poke-img {
   height: 50dvh;
+}
+
+.change-button {
+  width: 7rem;
 }

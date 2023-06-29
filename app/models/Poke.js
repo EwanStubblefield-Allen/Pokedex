@@ -1,5 +1,9 @@
+import { AppState } from "../AppState.js"
+import { generateId } from "../utils/generateId.js"
+
 export class Poke {
   constructor(data) {
+    this.id = data.id || generateId()
     this.name = data.name
     this.img = data.img || data.sprites.back_default
     this.weight = data.weight
@@ -22,14 +26,21 @@ export class Poke {
               <p>Height: ${this.height}"</p>
               <p>Weight: ${this.weight} lbs</p>
             </div>
-            <p>Types: ${this.TypeTemplate}</p>
-            <div class="text-end">
-              <button onclick="app.MyPokeController.catchPoke()">Catch</button>
+            <p>Types: ${this.TypeTemplate ? this.TypeTemplate : this.types}</p>
+            <div class="p-2 text-end">
+              ${this.ComputedButton}
             </div>
           </div>
         </div>
       </div>
     </section>`
+  }
+
+  get ComputedButton() {
+    if (document.getElementById('pokemonList')) {
+      return '<button onclick="app.MyPokeController.catchPoke()">Catch</button>'
+    }
+    return `<button onclick="app.MyPokeController.deletePoke('${this.id}')">Release</button>`
   }
 
   get TypeTemplate() {
