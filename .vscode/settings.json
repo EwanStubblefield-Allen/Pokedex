@@ -1,0 +1,26 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#39228a",
+    "activityBar.background": "#39228a",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#b34a2c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#39228a",
+    "statusBar.background": "#281861",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#39228a",
+    "statusBarItem.remoteBackground": "#281861",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#281861",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#28186199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#281861",
+  "cSpell.words": [
+    "Pokedex",
+    "Poki"
+  ]
+}

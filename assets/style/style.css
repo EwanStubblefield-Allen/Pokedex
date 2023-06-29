@@ -1,0 +1,32 @@
+/* BASIC STYLES HERE */
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  max-height: 70vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.banner {
+  border-radius: 10px;
+  border: 7px solid #000;
+  background-color: #E93031;
+  box-shadow: 0px 4px 4px black;
+}
+
+.text {
+  border: 10px solid #F8979C;
+  background-color: white;
+}
+
+.poke-img {
+  height: 50dvh;
+}
